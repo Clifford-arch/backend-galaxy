@@ -1,4 +1,4 @@
-# Backend Lab
+# Backend Galaxy
 
 A growing collection of backend implementations built using different technologies, architectures. Created to explore, learn, and master server-side development from the ground up.
 
