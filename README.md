@@ -6,7 +6,7 @@ A growing collection of backend implementations built using different technologi
 
 ## Why This Exists
 
-I started this repository as a personal journey to understand how different backend stacks solve the same problems — authentication, databases, clean architecture, scalability, microservices, real-time communication, cloud deployment, and more.
+I started this repository as a personal journey to understand how different backend stacks implement and work.
 
 Every folder here represents something I learned, broke, fixed, and improved. It’s not just code — it’s documentation of growth.
 
