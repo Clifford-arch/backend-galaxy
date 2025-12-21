@@ -4,6 +4,9 @@ from flask import Flask, jsonify, request
 # creates the Flask instance.
 app = Flask(__name__)
 
+@app.route('/', methods=['GET'])
+def home():
+    return "Welcome to the Book API"
 
 # Sample data
 books = [
@@ -11,6 +14,7 @@ books = [
     {"id": 2, "title": "Gunahon ka Devta", "author": "Dharamvir Bharti"},
     {"id": 3, "title": "Problems in General Physsics", "author": "I.E Irodov"}
 ]
+
 # Get all books
 @app.route('/books', methods=['GET'])
 def get_books():
